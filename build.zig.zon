@@ -1,0 +1,17 @@
+.{
+    .name = .clouds,
+    .version = "0.0.0",
+    .fingerprint = 0x9a8285d08f5e5360,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .raylib_zig = .{
+            .url = "git+https://github.com/raylib-zig/raylib-zig?ref=devel#58f3c0fa328fc9ff48d17c2c3771ab9c5114aaa6",
+            .hash = "raylib_zig-6.0.0-KE8REMNkBQCpxwqT9ubVNf5aEOcWRUVIaH2sgt_sDDoZ",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
